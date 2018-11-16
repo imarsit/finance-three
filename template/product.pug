@@ -1,0 +1,237 @@
+extends layout
+
+block content
+	.scd.clearfix
+		.scd_l
+			.pst
+				span 我们的业务
+			.space_hx  
+			.s_nav
+				a.on(href='') 对冲基金
+				a(href='') 定增基金
+				a(href='') 并购基金
+				a(href='') 股权投资
+				a(href='') 财务顾问
+			.space_hx  
+			.code
+				img(src='/fthree/images/header/mars-wechat.png')
+				p 扫一扫微信二维码
+		.scd_r
+			.r_nav.clearfix
+				span.goBack  
+				span.pst 我们的业务
+				.r_navm.clearfix
+					.n_ico 导航栏
+					.n_m
+						a(href='/') 首页
+						a(href='about') 关于融启
+						a.now(href='produt') 我们的业务
+						a(href='news') 新闻中心
+						a(href='join') 加入融启
+			.space_hx  
+			dl.scd_rm.s_mm.s_c.clearfix
+				dt
+					img(src='/fthree/images/about/pic4.jpg', alt='')
+				dd
+					h1
+						em [混合型]
+						| 融启金控
+					ul.clearfix
+						li 净值日期：2015-11-18
+						li 成立时间：2015-09-08
+						li
+							| 单位净值：
+							span.red 1.1062
+						li 申购状态：开发
+						li
+							| 累计净值：
+							span.red 1.1062
+						li 定投状态：开发
+						li
+							| 涨跌幅(%)：
+							span.green -0.06%
+					.btn
+						a(href='tel:075525327271')
+							img(src='/fthree/images/product/icon8.png', alt='', width='153', height='29')
+						a(href='')
+							img(src='/fthree/images/product/icon9.png', width='117', height='29', alt='')
+			.space_hx  
+			.scd_rm.s_mm.s_d.clearfix
+				.s_dl
+					.tabBox_t
+						.tabBox
+							ul.tabNav
+								li.now 净值走势图
+								li 历史净值
+							.tabCont(style='display:block;')
+								.s_dl_a
+									img(src='/fthree/images/product/pic8.jpg', alt='')
+								.s_dl_b.clearfix
+									input(name='', type='text', value='2015-10-25')
+									| -
+									input(name='', type='text', value='2015-10-30')
+									.sj
+										a(href='javascript:;') 10天
+										a(href='javascript:;') 30天
+										a(href='javascript:;') 90天
+										a(href='javascript:;') 1年
+										a.on(href='javascript:;') 最大
+							.tabCont
+								table.ls(cellpadding='0', cellspacing='0')
+									tbody
+										tr
+											th(scope='col') 基金代码
+											th(scope='col') 日期
+											th(scope='col') 单位净值(元)
+											th(scope='col') 累计净值(元)
+										tr
+											td 001702
+											td 2015-11-24
+											td 1.1624
+											td 1.1624
+										tr
+											td 001702
+											td 2015-11-24
+											td 1.1624
+											td 1.1624
+										tr
+											td 001702
+											td 2015-11-24
+											td 1.1624
+											td 1.1624
+										tr
+											td 001702
+											td 2015-11-24
+											td 1.1624
+											td 1.1624
+										tr
+											td 001702
+											td 2015-11-24
+											td 1.1624
+											td 1.1624
+										tr
+											td 001702
+											td 2015-11-24
+											td 1.1624
+											td 1.1624
+				.s_dr
+					.title 历史业绩
+					p
+						| 截至
+						em 2015.11.24
+						| 净值增长率
+					table(cellpadding='0', cellspacing='0')
+						tbody
+							tr
+								th(scope='row') 最近一周
+								td
+									b 5.01
+									| %
+							tr
+								th(scope='row') 最近一月
+								td
+									b 14.51
+									| %
+							tr
+								th(scope='row') 最近一年
+								td
+									b 16.24
+									| %
+							tr
+								th(scope='row') 最近三年
+								td
+									b 16.24
+									| %
+							tr
+								th(scope='row') 今年以来
+								td
+									b 16.24
+									| %
+							tr
+								th(scope='row') 成立以来
+								td
+									b 16.24
+									| %
+			.space_hx  
+			.scd_rm.s_mm.s_e.clearfix
+				.tabBox_t
+					.tabBox
+						ul.tabNav
+							li.now 基金经理观点
+							li 基金经理介绍
+						.tabCont(style='display:block;')
+							dl.clearfix
+								dt
+									img(src='/fthree/images/product/pic9.png', alt='')
+								dd
+									.name 张宏建
+									.des 以宏观视角选择代表中国经济发展方向的行业，以企业家精神筛选最具成长潜力的企业，合理价格介入，伴随企业成长，努力为投资者获得稳定、持续的绝对收益。
+						.tabCont
+							dl.clearfix
+								dt
+									img(src='/fthree/images/product/pic9.png', alt='')
+								dd
+									.name 张宏建
+									.des
+										| 清华大学物理学博士，6年证券从业经历，曾任银联商务创新业务部专员，平安证券综合研究所TMT行业研究员。2012年5月加盟东方基金管理有限责任公司，曾任权益投资部电子、传媒、家用电器、电气设备行业研究员，东方核心动力股票型开放式证券投资基金基金经理助理。现任东方策略成长股票型开放式证券投资基金、东方龙混合型开放式证券投资基金基金经理、东方新思路灵活配置混合型证券投资基金基金经理、东方创新科技混合型证券投资基金基金经理。
+			.space_hx  
+			.scd_rm.s_mm.s_e.s_f.clearfix
+				.tabBox_t
+					.tabBox
+						ul.tabNav
+							li.now 基金概况
+							li 投资组合
+							li 基金公告
+							li 基金费率
+							li 销售机构
+							li 媒体报道
+						.tabCont(style='display:block;')
+							// 基金概况
+							| 基金概况
+						.tabCont
+							// 投资组合
+							| 投资组合
+						.tabCont
+							// 基金公告
+							ul
+								li
+									a(href='')
+										p 关于增加华福证券为旗下部分基金销售渠道及开通定投和转换业务并参与其费率优惠活
+										em 2015-11-23
+								li
+									a(href='')
+										p 关于增加华福证券为旗下部分基金销售渠道及开通定投和转换业务并参与其费率优惠活
+										em 2015-11-23
+								li
+									a(href='')
+										p 关于增加华福证券为旗下部分基金销售渠道及开通定投和转换业务并参与其费率优惠活
+										em 2015-11-23
+								li
+									a(href='')
+										p 关于增加华福证券为旗下部分基金销售渠道及开通定投和转换业务并参与其费率优惠活
+										em 2015-11-23
+								li
+									a(href='')
+										p 关于增加华福证券为旗下部分基金销售渠道及开通定投和转换业务并参与其费率优惠活
+										em 2015-11-23
+								li
+									a(href='')
+										p 关于增加华福证券为旗下部分基金销售渠道及开通定投和转换业务并参与其费率优惠活
+										em 2015-11-23
+							.space_hx  
+							.pages_a
+								a.active(href='') 1
+								a(href='') 2
+								a(href='') 下一页
+							// 基金公告
+						.tabCont
+							// 基金费率
+							| 基金费率
+						.tabCont
+							// 销售机构
+							| 销售机构
+						.tabCont
+							// 媒体报道
+							| 媒体报道
+
+	

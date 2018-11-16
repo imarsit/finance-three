@@ -1,0 +1,6 @@
+@import "reset.css";
+@import "thems.css";
+@import "responsive.css";
+.section-wrap {
+  position: absolute;
+}

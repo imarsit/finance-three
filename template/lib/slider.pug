@@ -1,0 +1,12 @@
+.banners-slider.slick-dotted
+	each v, i in scroll
+		div(data-slick-index=i, aria-hidden='true', role='tabpanel', aria-describedby=`slick-slide-control1${i}`, tabindex='-1', style='width: 100%;')
+			div
+				.jumbotron.hero.hero-kodo-pili-event(style=`width: 100%; display: inline-block;background-image:url(${v.thumbnail.url})`)
+					.row.col-lg-12
+						.banner-tip.col-sm-6.col-lg-8
+							h1=v.extensions.bigtltle
+							p=v.extensions.desc
+							p=v.extensions.descs
+
+
